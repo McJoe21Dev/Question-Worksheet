@@ -1,0 +1,42 @@
+{
+  "header": {
+  "name": "",
+  "title": "Historical Events",
+  "author": "QWS",
+  "sub": "Research these historical events using the internet."
+  },
+  "questions": 10,
+  "line": true,
+  "interactive": true,
+  "middle": ["was"],
+  "start": [
+  "Why",
+  "Where",
+  "When"
+ ],
+  "end": [
+  "World War I started",
+  "World War II started",
+  "the World Wars started",
+  "Which Hunts",
+  "the Romans around",
+  "the Vikings around",
+  "the Greeks around",
+  "the Black Death started",
+  "the Bubonic Plague started",
+  "the Gutenberg Printing Press invented",
+  "the American Revolution started",
+  "the American Civil War started",
+  "the French Revolution started",
+  "the Industrial Revolution started",
+  "the Digital Revolution started",
+  "Ulster Rugby started",
+  "the Football World Cup started",
+  "the Football Six Nations started",
+  "farming started",
+  "the first pet kept",
+  "the first computer invented",
+  "the first website",
+  "the first computer virus created"
+ ]
+}

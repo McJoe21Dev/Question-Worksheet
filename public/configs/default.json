@@ -1,0 +1,23 @@
+{
+  "comment": "** do not delete this file, its used as a fallback **",
+  "header": {
+  "name": "Student Name",
+  "title": "Demo Worksheet",
+  "author": "QWS",
+  "sub": "This is a demo worksheet, Edit the the files in /configs folder, and then put ?load=(config file) in the url. Have fun playing around with this tool ;)"
+  },
+  "questions": 4,
+  "line": true,
+  "interactive": true,
+  "middle": ["is a"],
+  "start": [
+    "What"
+    ],
+  "end": [
+    "question",
+    "demo",
+    "string",
+    "number",
+    "integer"
+    ]
+}

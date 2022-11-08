@@ -1,0 +1,20 @@
+      body {
+        margin: 50px 200px;
+      }
+      .q_text, input {
+        font-size:20px;
+      }
+      input {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 2px solid black;
+        height: 20px;
+        width: 90%;
+      }
+      #header #border {
+        width: 90%;
+        margin-bottom:20px;
+        border: 3px orange dashed;
+      }
+      #header input {width: 150px}
