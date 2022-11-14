@@ -32,6 +32,7 @@ A question worksheet generation program, with configs.
 ### Tips
 
 - Make more options in the config compared to the question count
+- Try to add as many possible choices of fillers
 
 -------------------------------------------
 ### Planning
@@ -41,4 +42,5 @@ A question worksheet generation program, with configs.
 -------------------------------------------
 ### Librarys Used
 
-- [jQuery](https://jquery.com/) **(via Cloudflare CDN)**
+- [jQuery](https://jquery.com/) **(via UNPKG CDN)**
+- [Sweet Alert](https://sweetalert.js.org/) **(via UNPKG CDN)**

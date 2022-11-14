@@ -8,17 +8,17 @@
   "questions": 10,
   "line": true,
   "interactive": true,
-  "middle": ["was"],
   "start": [
   "Why",
   "Where",
   "When"
  ],
+"middle": ["was"],
   "end": [
   "World War I started",
   "World War II started",
   "the World Wars started",
-  "Which Hunts",
+  "the Which Hunts",
   "the Romans around",
   "the Vikings around",
   "the Greeks around",
@@ -36,7 +36,5 @@
   "farming started",
   "the first pet kept",
   "the first computer invented",
-  "the first website",
-  "the first computer virus created"
  ]
 }

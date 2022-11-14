@@ -9,10 +9,10 @@
   "questions": 4,
   "line": true,
   "interactive": true,
-  "middle": ["is a"],
   "start": [
     "What"
     ],
+"middle": ["is a"],
   "end": [
     "question",
     "demo",

@@ -5,9 +5,9 @@ const p_id = urlParams.get("id");
 /* ================ on ready ================  */
 $(document).ready(() => {
   /* load styles */
-  $.get("/static/style.css", css => {
+ /* $.get("/static/style.css", css => {
     $("head").append(`<style>${css}</style>`)
-  });
+  }); */
 
   /* check for "load" parameter */
   if (!p_id) {
@@ -29,10 +29,16 @@ $(document).ready(() => {
 
 /* ================ functions ================  */
 
-/* main function */
+/* load function */
 function load(id) {
-  /* load config */
+  /* fetch local config */
+  if(localStorage[`config_${id}`]){
+    dom(JSON.parse(localStorage[`config_${id}`]));
+    return;
+  }
+  /* fetch config */
   $.getJSON(`configs/${id}.json`, d => {
+    localStorage[`config_${id}`] = JSON.stringify(d);
     dom(d);
   })
   .fail(() => {
@@ -48,13 +54,14 @@ function useOnline(id) {
     type: 'get',
     timeout: 5000,
     url: `https://${host}/configs/${id}.json`,
-    success: function(data){
-        dom(data);
+    success: function(d){
+        localStorage.set(`config_${id}`, JSON.stringify(d));
+        dom(d);
         return true;
     },
     error:function (xhr){
         alert(xhr.status);
-        continue;
+        return;
     }
 });
       

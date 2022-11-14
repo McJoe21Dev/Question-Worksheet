@@ -8,12 +8,12 @@
   "questions": 5,
   "line": true,
   "interactive": true,
-  "middle": ["was"],
   "start": [
   "Why",
   "Where",
   "When"
  ],
+   "middle": ["was"],
   "end": [
   "the Digital Revolution started",
   "Facebook started",
