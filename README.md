@@ -3,7 +3,7 @@
 A question worksheet generation program, with configs.
 
 ![](https://img.shields.io/badge/Version-1.1-blue)
-![](https://img.shields.io/badge/Created%20by-McJoe21-red)
+![](https://img.shields.io/badge/Created%20by-TriHydera-red)
 
 -------------------------------------------
 ### Starting
