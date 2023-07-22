@@ -18,9 +18,9 @@ A question worksheet generation program, with configs.
 - To edit the questions just look for the `configs` folder
 - Config most have values for following:
 
+|-----------|--------|--------|
 | Value     | Type   | About  |
 | header | object | The page header |
-|-----------|--------|--------|
 | questions | number | Question count |
 | line | boolean | Show or hides the line under the question |
 | interactive | boolean | Make inputs interactive |
