@@ -2,7 +2,7 @@
 
 A question worksheet generation program, with configs.
 
-![](https://img.shields.io/badge/Version-1.1-blue)
+![](https://img.shields.io/badge/Version-1.2-blue)
 ![](https://img.shields.io/badge/Created%20by-TriHydera-red)
 
 -------------------------------------------
@@ -42,5 +42,5 @@ A question worksheet generation program, with configs.
 -------------------------------------------
 ### Librarys Used
 
-- [jQuery](https://jquery.com/) **(via UNPKG CDN)**
-- [Sweet Alert](https://sweetalert.js.org/) **(via UNPKG CDN)**
+- [jQuery](https://jquery.com/)
+- [Sweet Alert](https://sweetalert.js.org/)
